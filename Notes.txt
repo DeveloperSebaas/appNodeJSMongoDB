@@ -1,0 +1,24 @@
+Modulos usados
+
+npm init -y (Sirve para listar los modulos o dependencias que se van a utilizar)
+
+npm install express  connect-flash bcryptjs express-handlebars express-session method-override mongoose passport passport-local 
+
+npm install : 
+express  (Sirve para crear un servidor)
+connect-flash (Sirve para enviar mensajes entre vistas)
+bcryptjs (Sirve para cifrar texto como contraseñas)
+express-handlebars (Sirve para crear vistas HTML)
+express-session (Sirve para guardar memoria de una sesión)
+method-override (Sirve para generar peticiones PUT o DELETE desde la vista)
+mongoose (Sirve para manejar la base de datos NoSQL)
+passport (Sirve para autentificar al usuario, donde trabaja en junto con bcryptjs)
+passport-local (Sirve para especificar que se utilizara la base de datos local)
+
+npm install dotenv nodemon npm-check-updates -D 
+
+npm install : 
+dotenv (Sirve para utilizar variables de entorno en los programas)
+nodemon (Sirve para reiniciar el servidor cada vez que se hace un cambio)
+npm-check-updates (Sirve para supervisa si hay nuevos modulos o actualizaciones)
+-D (Especidica que no son dependencias principales sino de desarrollo)
